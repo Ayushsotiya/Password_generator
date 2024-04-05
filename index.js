@@ -25,7 +25,7 @@ const generateButton = document.querySelector("#generateButton");
 const symbols = '~`!@#$%^&*()_-+={[}]|:;"<,>.?/';
 
 let password = "";
-let passwordLength = 10;
+let passwordLength = 6;
 
 // uppercase is checked by default. so checkCount = 1
 uppercaseCb.checked = true;
